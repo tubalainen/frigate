@@ -62,6 +62,10 @@ Cameras that output H.264 video and AAC audio will offer the most compatibility 
 
 ## Installing
 
+### Software requirements
+* Frigate NVR requires you to have a working MQTT broker such as Mosquitto. You can find Mosquitto in the Home Assistant addon store or install in stand-a-lone.
+* Frigate only runs under a Linux environment and it is currently only running in a stand-a-lone docker container. For more info on the Docker installation please consult  [Docker install](#docker) for details.
+
 ### HassOS Addon
 HassOS users can install via the addon repository. Frigate requires that an MQTT server be running.
 1. Navigate to Supervisor > Add-on Store > Repositories
